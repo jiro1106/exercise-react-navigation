@@ -6,7 +6,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { CartContext } from '../context_api/CartContext';
 
-// 🔥 Ensure each product has a quantity field
+
 const products = [
   { id: '1', name: 'Nike Vomero 5', price: 160.99, image: require('../../assets/product_1.png'), quantity: 1 },
   { id: '2', name: 'Addidas Spezial', price: 119.49, image: require('../../assets/product_2.png'), quantity: 1 },
